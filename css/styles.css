@@ -60,14 +60,7 @@ button {
   cursor: pointer;
 }
 /* Логотип в хедері */
-.logo {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-  color: #000;
-  display: inline-block;
-}
+
 /* Колір першої половини лого в хедері */
 .blue {
   color: var(--accent-color);
@@ -880,4 +873,28 @@ color: rgba(117, 117, 117, 0.5);
   height: 24px;
   margin-top: 3px;
   margin-left: 10px;
+}
+
+.flex-conteiner {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.flex-conteiner__logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: #000;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.logo__logo--colour {
+  color: var(--accent-color);
 }
