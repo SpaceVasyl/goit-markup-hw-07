@@ -1,14 +1,22 @@
 .team {
     background-color: var(--section-color-grey);
     padding: 94px 0;
+    &__head {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.18;
+        text-align: center;
+        padding-bottom: 10px;
+        }
+    &__page {
+        font-size: 16px;
+        line-height: 1.18;
+        text-align: center;
+        color: var(--second-text-color-grey);
+        }
 }
 
-.team-head {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-}
+
 
 .fourth-list-flex {
     display: flex;
@@ -26,20 +34,9 @@
     padding: 30px 32px;
 }
 
-.team__head {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.18;
-    text-align: center;
-    padding-bottom: 10px;
-}
 
-.team__page {
-    font-size: 16px;
-    line-height: 1.18;
-    text-align: center;
-    color: var(--second-text-color-grey);
-}
+
+
 
 .soshial-icons {
     display: flex;

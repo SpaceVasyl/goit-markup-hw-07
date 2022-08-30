@@ -293,7 +293,6 @@ header {
 .pictures {
   padding-top: 0;
 }
-
 .pictures__title {
   font-weight: 700;
   font-size: 36px;
@@ -301,17 +300,14 @@ header {
   text-align: center;
   margin-bottom: 50px;
 }
-
 .pictures__list {
   display: flex;
   gap: 30px;
   position: relative;
 }
-
 .pictures__item {
   position: relative;
 }
-
 .pictures__text {
   font-weight: 700;
   font-size: 14px;
@@ -331,12 +327,18 @@ header {
   background-color: var(--section-color-grey);
   padding: 94px 0;
 }
-
-.team-head {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
+.team__head {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
   text-align: center;
+  padding-bottom: 10px;
+}
+.team__page {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  color: var(--second-text-color-grey);
 }
 
 .fourth-list-flex {
@@ -353,21 +355,6 @@ header {
 
 .cards-employers {
   padding: 30px 32px;
-}
-
-.team__head {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
-  text-align: center;
-  padding-bottom: 10px;
-}
-
-.team__page {
-  font-size: 16px;
-  line-height: 1.18;
-  text-align: center;
-  color: var(--second-text-color-grey);
 }
 
 .soshial-icons {
