@@ -875,17 +875,7 @@ color: rgba(117, 117, 117, 0.5);
   margin-left: 10px;
 }
 
-.flex-conteiner {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  display: flex;
-  align-items: center;
-}
-
-.flex-conteiner__logo {
+.logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -893,8 +883,4 @@ color: rgba(117, 117, 117, 0.5);
   color: #000;
   display: inline-block;
   text-decoration: none;
-}
-
-.logo__logo--colour {
-  color: var(--accent-color);
 }
