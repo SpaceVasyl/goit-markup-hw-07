@@ -77,56 +77,13 @@ button {
 }
 
 /* Позбавлення списків елементів непотрібних текстових стилів */
-.list {
-    list-style: none;
-}
+
 
 /* Прибирання підкреслення з посилань */
-.un-underline {
-    text-decoration: none;
-}
+
 
 /* Задали колір фону хедера */
-header {
-    background-color: var(--color-white);
-    border-bottom-color: #ececec;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    padding-top: 24px;
-    padding-bottom: 25px;
-}
 
-/* Стилі панелі навігації */
-.header .hatpage {
-    color: var(--primary-text-color);
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    padding: 0 2px;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.active::after {
-    content: "";
-    width: 100%;
-    height: 4px;
-    top: 49.7px;
-    left: 0;
-    background-color: var(--accent-color);
-    position: absolute;
-    border-radius: 4px;
-}
-
-
-.header .hatpage:hover,
-.header .hatpage:focus {
-    color: var(--accent-color);
-}
-
-.header .active {
-    color: var(--accent-color);
-}
 
 .convert-icon {
     width: 16px;
@@ -179,22 +136,14 @@ header {
 }
 
 /* Позиціонування хедеру */
-.header-position {
+.header-box {
     display: flex;
     align-items: center;
 }
 
-.position {
-    position: relative;
-}
 
-.navig-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 46px;
-    margin-left: 93px;
-    position: relative;
-}
+
+
 
 .adress-list {
     display: flex;
@@ -300,11 +249,11 @@ header {
 }
 
 /* Стилі третьої секції - Що ми робимо/чим ми займаємося */
-.pad-top-zer {
+.pictures {
     padding-top: 0;
 }
 
-.third-sec-head {
+.pictures__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -312,17 +261,17 @@ header {
     margin-bottom: 50px;
 }
 
-.third-sec-list {
+.pictures__list {
     display: flex;
     gap: 30px;
     position: relative;
 }
 
-.div-pos {
+.pictures__item {
     position: relative;
 }
 
-.desktop-text {
+.pictures__text {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;

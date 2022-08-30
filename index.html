@@ -13,16 +13,18 @@
         rel="stylesheet">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-    <link href="./css/styles-old.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.min.css">
+    <!-- <link href="./css/styles-old.css" rel="stylesheet"> -->
     <link href="./css/styles.css" rel="stylesheet">
+    
 </head>
 
 <body>
     <header class="header">
     <!--Логотип-->
-    <div class="conteiner header-position">
+    <div class="conteiner header-box">
         <a href="index.html" class="logo un-underline"><span class="blue">Web</span>Studio</a>
-        <nav class="position">
+        <nav class="header--position">
             <!--Посилання в шапці сторінки-->
             <ul class="list navig-list">
                 <li class="position">
@@ -31,7 +33,7 @@
                 <li class="position">
                     <a href="./portfolio.html" class="link un-underline hatpage ">Портфоліо</a>
                 </li>
-                <li>
+                <li class="position">
                     <a href="#" class="link un-underline hatpage">Контакти</a>
                 </li>
             </ul>
@@ -109,27 +111,27 @@
                 </ul>
             </div>
         </section>
-        <section class="section pad-top-zer">
+        <section class="section pictures">
             <!--Третя секція що ми робимо/чим ми займаємося/наша спеціальність-->
             <div class="conteiner">
-                <h2 class="third-sec-head">Чим ми займаємося</h2>
-                <ul class="list third-sec-list">
-                    <li class="desktop-apps">
-                        <div class="div-pos">
+                <h2 class="pictures__title">Чим ми займаємося</h2>
+                <ul class="list pictures__list">
+                    <li>
+                        <div class="pictures__item">
                             <img src="./images/img-keyboard.jpg" alt="клівіатура" width="370" height="294">
-                            <p class="desktop-text">Десктопні додатки</p>
+                            <p class="pictures__text">Десктопні додатки</p>
                         </div>
                     </li>
-                    <li class="desktop-apps">
-                        <div class="div-pos">
+                    <li>
+                        <div class="pictures__item">
                             <img src="./images/img-tel-comp.jpg" alt="телефон з комп'ютером" width="370" height="294">
-                            <p class="desktop-text">Мобільні додатки</p>
+                            <p class="pictures__text">Мобільні додатки</p>
                         </div>
                     </li>
-                    <li class="desktop-apps">
-                        <div class="div-pos">
+                    <li>
+                        <div class="pictures__item">
                             <img src="./images/img-palette.jpg" alt="палітра" width="370" height="294">
-                            <p class="desktop-text">Дизайнерські рішення</p>
+                            <p class="pictures__text">Дизайнерські рішення</p>
                         </div>
                     </li>
                 </ul>
