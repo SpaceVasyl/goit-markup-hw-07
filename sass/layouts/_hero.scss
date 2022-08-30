@@ -11,6 +11,19 @@
     background-position: 50%;
     margin-left: auto;
     margin-right: auto;
+    &__box {
+            text-align: center;
+            padding: 106px 0;
+        }
+    &__title {
+    color: var(--color-white);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}    
 }
 .conteiner {
     width: 1200px;
@@ -20,20 +33,8 @@
     padding-right: 15px;
 }
 
-.hero__box {
-    text-align: center;
-    padding: 106px 0;
-}
 
-.hero__title {
-    color: var(--color-white);
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-}
+
 
 .button-kn {
     background-color: var(--accent-color);
