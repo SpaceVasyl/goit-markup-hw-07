@@ -328,17 +328,23 @@ header {
   padding: 94px 0;
 }
 .team__head {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
   text-align: center;
-  padding-bottom: 10px;
 }
 .team__page {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
   color: var(--second-text-color-grey);
+}
+.team__title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.1875;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 .fourth-list-flex {
@@ -422,6 +428,7 @@ header {
   fill: #AFB1B8;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  width: 100%;
 }
 
 .clients-logo:hover,
