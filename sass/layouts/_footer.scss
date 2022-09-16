@@ -112,7 +112,10 @@
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
 }
-
+.round:hover ,
+.round:focus {
+    background-color: var(--accent-color);
+}
 .insta-icon {
     width: 20px;
     height: 20px;
@@ -121,9 +124,11 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icons-color {
+.foot-new .icons-color {
     fill: rgba(255, 255, 255, 1);
 }
+
+
 
 .foot-new {
     margin-left: auto;
@@ -207,3 +212,12 @@
     display: inline-block;
     text-decoration: none;
 }
+
+.insta-icon {
+    width: 20px;
+    height: 20px;
+    fill: #afb1b8;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+

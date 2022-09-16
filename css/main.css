@@ -266,7 +266,7 @@ header {
   gap: 30px;
 }
 
-.icon {
+.about__wrapper {
   background-color: var(--section-color-grey);
   border-radius: 4px;
   padding: 25px 100px;
@@ -347,29 +347,29 @@ header {
   margin-bottom: 10px;
 }
 
-.fourth-list-flex {
+.team__list {
   display: flex;
   gap: 30px;
   margin-top: 50px;
 }
 
-.card-list {
+.team__item {
   background-color: var(--color-white);
   border-radius: 0 0 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.cards-employers {
+.team__wrapper {
   padding: 30px 32px;
 }
 
-.soshial-icons {
+.soshials {
   display: flex;
   margin-top: 16px;
   gap: 10px;
 }
 
-.insta {
+.socials__link {
   display: flex;
   flex-direction: row;
   gap: 10px;
@@ -380,7 +380,7 @@ header {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.insta-icon {
+.socials__item {
   width: 20px;
   height: 20px;
   fill: #AFB1B8;
@@ -388,14 +388,14 @@ header {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.insta:hover,
-.insta:focus {
+.socials__link:hover,
+.socials__link:focus {
   background-color: var(--accent-color);
   border-radius: 50%;
 }
 
-.insta:hover .insta-icon,
-.insta:focus .insta-icon {
+.socials__link:hover .socials__item,
+.socials__link:focus .socials__item {
   fill: var(--color-white);
 }
 
@@ -557,6 +557,11 @@ header {
   border-radius: 50%;
 }
 
+.round:hover,
+.round:focus {
+  background-color: var(--accent-color);
+}
+
 .insta-icon {
   width: 20px;
   height: 20px;
@@ -565,7 +570,7 @@ header {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icons-color {
+.foot-new .icons-color {
   fill: rgb(255, 255, 255);
 }
 
@@ -649,6 +654,14 @@ header {
   color: #000;
   display: inline-block;
   text-decoration: none;
+}
+
+.insta-icon {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .cover-darkness {
